@@ -22,13 +22,18 @@ public class main_captura implements IScript
 	private int e = 0;
 	private int l = 0;
 	
-    public void execute(IContainerContext context) throws OException
+    public void execute(IContainerContext context) throws OException 
     {
+    	this.pint_meu_nome();
+    }
+    
+    
+    private void pint_meu_nome()throws OException{
     	OConsole.oprint("M D U "+j);
     	OConsole.oprint("M D U "+a);
     	OConsole.oprint("M D U "+s);
     	OConsole.oprint("M D U "+i);
     	OConsole.oprint("M D U "+e);
-    	OConsole.oprint("M D U "+l);
+    	OConsole.oprint("M D U "+l);	
     }
 }

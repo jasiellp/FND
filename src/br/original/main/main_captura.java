@@ -8,7 +8,7 @@ import com.olf.openjvs.OException;
 
 /*
  * desenvolvido por jasiel
- * 
+ * com ajuda do antonio
  * 
  * */
 
